@@ -1,1 +1,1 @@
-module.exports = require('lib/analize');
+module.exports = require('./lib/analize');
