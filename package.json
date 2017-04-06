@@ -1,0 +1,31 @@
+{
+  "name": "analizejs",
+  "version": "1.0.0",
+  "description": "A node module to get information about memory and cpu information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bundz/analizejs.git"
+  },
+  "keywords": [
+    "analize",
+    "memory",
+    "cpu"
+  ],
+  "author": "Vitor Alano de Ataides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bundz/analizejs/issues"
+  },
+  "homepage": "https://github.com/bundz/analizejs#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.7"
+  }
+}
