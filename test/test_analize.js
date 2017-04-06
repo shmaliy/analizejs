@@ -62,6 +62,18 @@ describe('Analizejs', function () {
 
 		});
 
+	context('when calling analize.vms', function () {
+
+		var vms = analize.vms();
+
+		it('should return a empty array', function () {
+
+			expect(vms).to.have.length.equals(0);
+
+		});
+
+	});
+
 
 	});
 
